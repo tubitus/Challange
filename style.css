@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #202020;
 }
 
 .karta{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.144);
     display: flex;
     width: 296px;
     height: 173px;
@@ -11,14 +11,26 @@ body{
     position: absolute;
     left: 800px;
     top: 400px;
+    z-index: 10px;
+    backdrop-filter: blur(20px);
 }
 
 .koule{
-    background-color: #27346A;
-    height: 180px;
-    width: 180px;
+    background-color: #A11D23;
+    padding: 90px;
     border-radius: 50%;
     position: absolute;
     left: 1000px;
     top: 350px;
+    z-index: -1;
+}
+
+.koule2{
+    background-color: #E61A23;
+    padding: 57px;
+    border-radius: 50%;
+    position: absolute;
+    left: 724px;
+    top: 480px;
+    z-index:    -1;
 }
